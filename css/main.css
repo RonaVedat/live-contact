@@ -1,0 +1,73 @@
+* {
+  font-size: 1em;
+  font-family: Open Sans;
+}
+
+body {
+  background-color: #171717;
+  line-height: 1.3em;
+}
+
+.container {
+  background-color: #222;
+  height: 673px;
+  width: 321px;
+  margin: 100px auto;
+  padding: 20px 1px 1px 30px;
+  border-radius: 15px;
+  -webkit-box-shadow: 12px 12px 2px 1px rgba(20, 20, 20, 0.2);
+          box-shadow: 12px 12px 2px 1px rgba(20, 20, 20, 0.2);
+}
+
+.desc {
+  color: #fff;
+  padding-bottom: 16px;
+  width: 286px;
+  height: 74px;
+  text-align: left;
+}
+
+.container > .n {
+  color: #BBBED5;
+  margin: 3px auto;
+}
+
+.name {
+  border-radius: 5px;
+  width: 286px;
+  height: 53px;
+  border: 1px solid #525252;
+  background-color: #222;
+  margin-bottom: 20px;
+}
+
+.mess {
+  border-radius: 5px;
+  width: 286px;
+  height: 119px;
+  border: 1px solid #525252;
+  background-color: #222;
+}
+
+.btn {
+  border: 1px solid #5B73D8;
+  border-radius: 5px;
+  background-color: #5B73D8;
+  margin-top: 20px;
+  margin-left: 2px;
+  padding: 0 2px;
+  width: 286px;
+  height: 53px;
+}
+
+.container > .btn > p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 15px auto;
+}
+
+#Group_6 {
+  margin-left: 280px;
+}
+/*# sourceMappingURL=main.css.map */

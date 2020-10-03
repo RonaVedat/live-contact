@@ -1,0 +1,81 @@
+$color-body: #171717; 
+$color-cont: #222;
+$color-font: #BBBED5;
+$color-bord: #525252;
+$color-btn: #5B73D8;
+
+
+* {
+    font-size: 1em;
+    font-family: Open Sans;
+}
+
+body {
+  background-color: $color-body;
+  line-height: 1.3em;
+}
+
+.container {
+    background-color: $color-cont;
+    height: 673px;
+    width: 321px;
+    margin: 100px auto;
+    padding: 20px 1px 1px 30px;
+    border-radius: 15px;
+    box-shadow: 12px 12px 2px 1px rgba(20, 20, 20, 0.2);
+}
+
+.desc {
+  color: #fff;
+  padding-bottom: 16px;
+  width: 286px;
+  height: 74px;
+  text-align: left;
+//   margin: 0 auto;
+}
+
+.container > .n {
+    color: $color-font;
+    margin: 3px auto;
+}
+
+.name {
+    border-radius: 5px;
+    width: 286px;
+    height: 53px;
+    border: 1px solid $color-bord;
+    background-color: $color-cont;
+    margin-bottom: 20px;
+}
+
+.mess {
+    border-radius: 5px;
+    width: 286px;
+    height: 119px;
+    border: 1px solid $color-bord;
+    background-color: $color-cont;
+}
+
+.btn {
+    border: 1px solid $color-btn;
+    border-radius: 5px;
+    background-color: $color-btn;
+    margin-top: 20px;
+    margin-left: 2px;
+    padding: 0 2px;
+    width: 286px;
+    height: 53px;
+}
+
+.container > .btn > p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    // padding: 0 auto;
+    margin: 15px auto;
+}
+
+#Group_6 {
+    margin-left: 280px;
+}
+/*# sourceMappingURL=main.css.map */
